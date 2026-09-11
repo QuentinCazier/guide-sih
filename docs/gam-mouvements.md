@@ -74,29 +74,55 @@ qui stocke des codes UF doit savoir gérer ces dates de validité.
 
 ## Modes d'entrée et de sortie
 
-Le PMSI impose des codes pour qualifier le début et la fin d'un séjour, que la
-GAM saisit :
+Le PMSI impose des codes pour qualifier le début et la fin d'un séjour dans
+chaque unité médicale, que la GAM saisit. Listes du guide méthodologique MCO
+2026 de l'ATIH (version provisoire) :
 
 | Mode d'entrée | Sens |
 |---|---|
-| 8 | domicile |
-| 7 | transfert depuis un autre établissement |
-| 6 | mutation depuis une autre unité du même établissement |
-| 0 | transfert provisoire |
+| 6 | mutation : le patient vient d'une autre unité de la même entité géographique |
+| 7 | transfert définitif : il vient d'une autre entité géographique |
+| 0 | transfert provisoire : « transfert pour ou après réalisation d'un acte », prestation entre établissements |
+| 8 | domicile ou substitut du domicile (hébergement médico-social), voie publique comprise |
+| N | naissance dans l'établissement (y compris enfants nés sans vie) |
+| O | patient entré décédé pour prélèvement d'organes, amené par le SMUR (le séjour n'est pas facturé à l'assurance maladie) |
+
+| Provenance (si mutation ou transfert) | Sens |
+|---|---|
+| 1 | unité de MCO hors réanimation |
+| R | unité de réanimation (néonatale, pédiatrique ou adulte) |
+| 2 | unité de soins médicaux et de réadaptation |
+| 3 | unité de soins de longue durée |
+| 4 | unité de psychiatrie |
+| 6 | hospitalisation à domicile |
+| 7 | structure d'hébergement médico-sociale (seule provenance possible avec le mode 8) |
+
+Le **passage par une structure des urgences** est, depuis 2025, une variable à
+part, codée avec les modes 8 et 7 : `5` urgences de la même entité
+géographique, `U` urgences d'une autre entité, `V` les deux successivement.
 
 | Mode de sortie | Sens |
 |---|---|
-| 8 | domicile |
-| 7 | transfert vers un autre établissement |
-| 6 | mutation vers une autre unité |
-| 9 | décès |
+| 6 | mutation vers une autre unité de la même entité géographique |
+| 7 | transfert définitif vers une autre entité géographique |
+| 0 | transfert provisoire, pour ou après un acte réalisé ailleurs |
+| 8 | domicile ou substitut |
+| 9 | décès dans l'unité |
 
-Un code de **provenance** (à l'entrée) ou de **destination** (à la sortie)
-précise le type de structure concernée : unité de MCO, de SMR, de
-psychiatrie, HAD, structure d'hébergement médico-sociale, passage par les
-urgences de l'établissement. Les listes exactes de codes et leurs libellés
-sont dans les guides méthodologiques et les formats PMSI publiés chaque année
-par l'ATIH : reprenez-les depuis la source plutôt que de mémoire.
+| Destination (si mutation ou transfert) | Sens |
+|---|---|
+| 1 | unité de MCO |
+| 2 | unité de soins médicaux et de réadaptation |
+| 3 | unité de soins de longue durée |
+| 4 | unité de psychiatrie |
+| 6 | hospitalisation à domicile |
+| 7 | structure d'hébergement médico-sociale (seule destination possible avec le mode 8) |
+
+Deux pièges classiques : une **permission** (absence de moins de quarante-huit
+heures) n'est pas une sortie et ne clôt pas le RUM ; un patient sorti puis
+réadmis le même jour ne fait qu'un seul séjour, et le mouvement entre les deux
+unités est une mutation. Les codes changent d'une année à l'autre : reprenez
+la liste du guide méthodologique de la campagne en cours plutôt que celle-ci.
 
 ## Les messages : HL7 v2 et le profil PAM
 
