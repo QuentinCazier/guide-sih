@@ -1,5 +1,8 @@
 # Données publiques
 
+> Dernière vérification des sources : 11 septembre 2026. Les règles et les
+> tarifs cités évoluent chaque année ; les liens en fin de chapitre font foi.
+
 Une grande partie des référentiels du SIH est publique. Savoir où les
 trouver, sous quelle licence et dans quel format évite bien des heures.
 

@@ -1,5 +1,8 @@
 # GAM, séjours et mouvements
 
+> Dernière vérification des sources : 11 septembre 2026. Les règles et les
+> tarifs cités évoluent chaque année ; les liens en fin de chapitre font foi.
+
 La **GAM** (gestion administrative des malades, parfois GAP pour gestion
 administrative du patient) est le cœur administratif du SIH. Elle tient le
 fichier des patients, ouvre et ferme les séjours, enregistre où se trouve
@@ -99,8 +102,8 @@ par l'ATIH : reprenez-les depuis la source plutôt que de mémoire.
 
 La GAM diffuse ses événements sous forme de messages **HL7 version 2**,
 messages texte segmentés (MSH, EVN, PID, PV1…) transportés le plus souvent en
-**MLLP** (un protocole minimal sur TCP). En France, la quasi-totalité des
-établissements utilisent le profil **IHE PAM** (Patient Administration
+**MLLP** (un protocole minimal sur TCP). En France, la référence est le profil
+**IHE PAM** (Patient Administration
 Management) dans son extension française, qui fixe les événements, les
 segments et les codes.
 

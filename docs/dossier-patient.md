@@ -1,5 +1,8 @@
 # Dossier patient et interopérabilité
 
+> Dernière vérification des sources : 11 septembre 2026. Les règles et les
+> tarifs cités évoluent chaque année ; les liens en fin de chapitre font foi.
+
 ## Le DPI
 
 Le **DPI** (dossier patient informatisé) est le logiciel dans lequel médecins,

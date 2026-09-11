@@ -1,5 +1,8 @@
 # Identité du patient
 
+> Dernière vérification des sources : 11 septembre 2026. Les règles et les
+> tarifs cités évoluent chaque année ; les liens en fin de chapitre font foi.
+
 Tout commence par savoir de qui l'on parle. Dans un hôpital, un patient porte
 plusieurs identifiants, chacun avec un rôle précis. Les confondre est la
 première source d'erreurs, et parfois d'accidents.

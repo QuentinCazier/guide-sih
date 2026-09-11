@@ -1,5 +1,8 @@
 # Nomenclatures et référentiels
 
+> Dernière vérification des sources : 11 septembre 2026. Les règles et les
+> tarifs cités évoluent chaque année ; les liens en fin de chapitre font foi.
+
 Un SIH manipule des dizaines de listes de codes officielles. Les connaître
 évite de réinventer des tables, et surtout de se tromper de code au mauvais
 endroit : un acte a un code pour le soin, le PMSI et la facture ; ce n'est pas

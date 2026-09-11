@@ -1,5 +1,8 @@
 # Architecture et intégration
 
+> Dernière vérification des sources : 11 septembre 2026. Les règles et les
+> tarifs cités évoluent chaque année ; les liens en fin de chapitre font foi.
+
 ## Le paysage type
 
 Aucun hôpital n'a exactement la même carte applicative, mais le schéma

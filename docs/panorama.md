@@ -1,5 +1,8 @@
 # Panorama du SIH
 
+> Dernière vérification des sources : 11 septembre 2026. Les règles et les
+> tarifs cités évoluent chaque année ; les liens en fin de chapitre font foi.
+
 ## Ce qu'on appelle SIH
 
 Le système d'information hospitalier est l'ensemble des logiciels, des flux et

@@ -1,5 +1,8 @@
 # Professionnels, identification et sécurité
 
+> Dernière vérification des sources : 11 septembre 2026. Les règles et les
+> tarifs cités évoluent chaque année ; les liens en fin de chapitre font foi.
+
 ## Identifier les professionnels
 
 | Identifiant ou moyen | Ce que c'est | Qui le délivre |

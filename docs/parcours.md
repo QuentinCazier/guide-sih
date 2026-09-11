@@ -1,5 +1,8 @@
 # Un séjour vu par les systèmes
 
+> Dernière vérification des sources : 11 septembre 2026. Les règles et les
+> tarifs cités évoluent chaque année ; les liens en fin de chapitre font foi.
+
 Suivons un séjour fictif du début à la fin, non pas du point de vue du patient
 ou des soignants, mais de celui des logiciels. Chaque étape nomme la brique du
 SIH concernée, l'échange qu'elle déclenche et la nomenclature qu'elle utilise.

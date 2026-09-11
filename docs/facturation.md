@@ -1,5 +1,8 @@
 # Facturation et recouvrement
 
+> Dernière vérification des sources : 11 septembre 2026. Les règles et les
+> tarifs cités évoluent chaque année ; les liens en fin de chapitre font foi.
+
 La facturation hospitalière est la partie du SIH où se rencontrent le plus
 d'acteurs extérieurs, de normes anciennes et de règles changeantes. C'est
 aussi celle où une erreur se voit tout de suite : la caisse rejette, l'argent

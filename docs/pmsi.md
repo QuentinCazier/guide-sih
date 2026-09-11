@@ -1,5 +1,8 @@
 # PMSI et financement
 
+> Dernière vérification des sources : 11 septembre 2026. Les règles et les
+> tarifs cités évoluent chaque année ; les liens en fin de chapitre font foi.
+
 Le **PMSI** (programme de médicalisation des systèmes d'information) décrit
 l'activité de chaque établissement sous forme de résumés standardisés, un par
 séjour, transmis à l'ATIH. Il sert à mesurer l'activité, à comparer les
@@ -66,10 +69,10 @@ complication, etc. Ces règles ont un impact financier direct.
 
 La **fonction groupage** est un programme fourni par l'ATIH, intégré dans les
 logiciels du DIM, qui classe chaque RSS dans un **GHM** (groupe homogène de
-malades). Un code GHM se lit ainsi : `05K101` par exemple, où `05` est la
-**catégorie majeure de diagnostic** (appareil circulatoire), `K` le type
-(interventionnel non chirurgical ; `C` chirurgical, `M` médical, `Z`
-indifférencié), `10` le numéro de la racine, et le dernier caractère le
+malades). Un code GHM se lit ainsi : `01C031` par exemple (présent dans le fichier tarifaire de l'ATIH), où
+`01` est la **catégorie majeure de diagnostic** (affections du système
+nerveux), `C` le type (chirurgical ; `K` interventionnel non chirurgical, `M`
+médical, `Z` indifférencié), `03` le numéro de la racine, et le dernier caractère le
 **niveau de sévérité** (`1` à `4`, `J` pour l'ambulatoire, `T` pour les très
 courts séjours).
 
