@@ -43,10 +43,10 @@ ce qu'on peut construire avec ces données et ces contraintes :
   DOS de l'Assurance Maladie, et produit aussi le format de l'ancienne
   extraction FINESS pour les chaînes de traitement existantes.
   [github.com/QuentinCazier/referentiels-sante](https://github.com/QuentinCazier/referentiels-sante)
-- **OpenHabilitations** : registre des habilitations et coffre à preuves
+- **Registris** : registre des habilitations et coffre à preuves
   d'audit pour les établissements de santé, pour répondre aux contrôles
   (commissaires aux comptes, PGSSI-S) matricule par matricule.
-  [github.com/QuentinCazier/openhabilitations](https://github.com/QuentinCazier/openhabilitations)
+  [github.com/QuentinCazier/registris](https://github.com/QuentinCazier/registris)
 
 ## Ce que ça change dans votre code
 
