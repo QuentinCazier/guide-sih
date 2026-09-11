@@ -1,0 +1,68 @@
+site_name: Le SIH pour les développeurs
+site_description: Comprendre le système d'information hospitalier français quand on doit écrire du code qui s'y branche
+site_url: https://quentincazier.github.io/guide-sih/
+repo_url: https://github.com/QuentinCazier/guide-sih
+repo_name: QuentinCazier/guide-sih
+edit_uri: edit/main/docs/
+copyright: Contenu sous licence CC BY 4.0
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre
+    - scheme: slate
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Passer en mode clair
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+
+nav:
+  - Accueil: index.md
+  - Un séjour vu par les systèmes: parcours.md
+  - Panorama du SIH: panorama.md
+  - Identité du patient: identite-patient.md
+  - GAM, séjours et mouvements: gam-mouvements.md
+  - Dossier patient et interopérabilité: dossier-patient.md
+  - Nomenclatures et référentiels: nomenclatures.md
+  - PMSI et financement: pmsi.md
+  - Facturation et recouvrement: facturation.md
+  - Professionnels, identification et sécurité: professionnels-securite.md
+  - Architecture et intégration: architecture.md
+  - Données publiques: donnees-publiques.md
+  - Glossaire: glossaire.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search:
+      lang: fr
