@@ -36,9 +36,11 @@ trouver, sous quelle licence et dans quel format évite bien des heures.
 Deux projets publiés sous licence libre par l'auteur de ce guide illustrent
 ce qu'on peut construire avec ces données et ces contraintes :
 
-- **referentiels-sante** : convertit FINESS+, les tables NOS et les tarifs GHS
-  en CSV et JSON propres, en une commande, sans dépendance. Il lit le flux
-  FINESS+ de 750 Mo en flux et produit aussi le format de l'ancienne
+- **referentiels-sante** : convertit FINESS+, les tables NOS, la CCAM, la
+  CIM-10 FR, la base publique des médicaments, la NABM, la LPP, les UCD et les
+  tarifs GHS en CSV et JSON propres, en une commande, sans dépendance. Il lit
+  le flux FINESS+ de 750 Mo en flux, décode les tables dBase en page de code
+  DOS de l'Assurance Maladie, et produit aussi le format de l'ancienne
   extraction FINESS pour les chaînes de traitement existantes.
   [github.com/QuentinCazier/referentiels-sante](https://github.com/QuentinCazier/referentiels-sante)
 - **OpenHabilitations** : registre des habilitations et coffre à preuves
