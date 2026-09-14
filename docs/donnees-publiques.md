@@ -45,11 +45,12 @@ ce qu'on peut construire avec ces données et ces contraintes :
   le flux FINESS+ de 750 Mo en flux, décode les tables dBase en page de code
   DOS de l'Assurance Maladie, et produit aussi le format de l'ancienne
   extraction FINESS pour les chaînes de traitement existantes.
-  [github.com/QuentinCazier/referentiels-sante](https://github.com/QuentinCazier/referentiels-sante)
+  [Site du projet](https://quentincazier.github.io/referentiels-sante/), avec un pas à pas pour
+  obtenir FINESS en CSV, et [code source](https://github.com/QuentinCazier/referentiels-sante).
 - **Registris** : registre des habilitations et coffre à preuves
   d'audit pour les établissements de santé, pour répondre aux contrôles
   (commissaires aux comptes, PGSSI-S) matricule par matricule.
-  [github.com/QuentinCazier/registris](https://github.com/QuentinCazier/registris)
+  [github.com/QuentinCazier/Registris](https://github.com/QuentinCazier/Registris)
 
 ## Ce que ça change dans votre code
 
